@@ -15,7 +15,7 @@
     "create": "set DEBUG=dev && babel-node api/server/database/connection",
     "seed": "set DEBUG=dev && babel-node api/server/database/seed/insert",
     "beforeTest": "npm run dropTables && npm run create && npm run seed",
-    "test": "npm run beforeTest && nyc mocha --require @babel/register api/server/test/index.spec --exit"
+    "test": "nyc mocha --require @babel/register api/server/test/index.spec --exit"
 
   },
   "repository": {
