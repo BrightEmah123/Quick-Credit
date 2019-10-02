@@ -28,4 +28,4 @@ notifications:
   email: false
 
 after_success:
-  - npm run coveralls
+  - npm run coverage
