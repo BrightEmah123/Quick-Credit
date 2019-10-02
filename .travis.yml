@@ -5,10 +5,6 @@ dist: trusty
 node_js:
   - "10.15.3"
 
-env:
-  global:
-  - secure: THE_SECRET_KEY_QUICKCREDIT_APP
-
 cache:
     directories:
       - "$HOME/.npm"
